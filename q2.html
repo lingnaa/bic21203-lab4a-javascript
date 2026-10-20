@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Validation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, button {
+            padding: 8px 12px;
+            font-size: 14px;
+            margin-right: 6px;
+        }
+        #result {
+            margin-top: 14px;
+            font-weight: bold;
+            min-height: 20px;
+        }
+    </style>
+    <script src="q2.js" defer></script>
+</head>
+<body>
+    <label for="userInput">Enter a number:</label>
+    <input type="text" id="userInput" placeholder="Enter a number">
+    <button id="checkBtn" type="button">Check</button>
+    <p id="result" role="status" aria-live="polite"></p>
+</body>
+</html>
