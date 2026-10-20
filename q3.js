@@ -2,7 +2,6 @@ const generateBtn = document.getElementById("generateBtn");
 const numberList = document.getElementById("numberList");
 
 function generateNumbers() {
-    // Clear existing list items before generating to prevent duplicates
     numberList.textContent = "";
 
     for (let i = 1; i <= 5; i++) {

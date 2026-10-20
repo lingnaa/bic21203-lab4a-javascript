@@ -1,4 +1,3 @@
-// 1. 获取 DOM 元素 (Select DOM elements)
 const userInput = document.getElementById("userInput");
 const checkBtn = document.getElementById("checkBtn");
 const result = document.getElementById("result");
